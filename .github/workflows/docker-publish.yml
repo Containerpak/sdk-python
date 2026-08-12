@@ -3,6 +3,8 @@ name: Publish
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '40 5 * * 1'
   workflow_dispatch:
 
 permissions:
@@ -48,4 +50,3 @@ jobs:
           sbom: true
       - name: Verify SDK
         run: docker run --rm ghcr.io/containerpak/sdk-python:main sh -c 'python3 --version && pip3 --version'
-
