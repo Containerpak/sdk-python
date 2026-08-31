@@ -4,7 +4,7 @@
   "name": "Python SDK",
   "description": "Python interpreter, headers, pip and virtual environment tools.",
   "version": "3.14.3",
-  "image": "ghcr.io/containerpak/sdk-python@sha256:45f71b1f399393025709fe5535253cfa678ba341e214c5cc9752b9fc946201f2",
+  "image": "ghcr.io/containerpak/sdk-python@sha256:4817451563717c01a69bb020d5b113bdf3b8c96567a9106bc1c9bef7c0865b0a",
   "binaries": [
     "/usr/bin/python3",
     "/usr/bin/pip3"
